@@ -22,3 +22,8 @@ class HomeNotLoaded extends HomeState {
   String message;
   HomeNotLoaded(this.message);
 }
+
+class HomeNotInternet extends HomeState {
+  String message;
+  HomeNotInternet(this.message);
+}
